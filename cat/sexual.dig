@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Ss</string>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>F</string>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>M</string>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="500" y="300"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="360" y="240"/>
+      <p2 x="420" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="240"/>
+      <p2 x="940" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="300"/>
+      <p2 x="500" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="300"/>
+      <p2 x="940" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="240"/>
+      <p2 x="420" y="300"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
