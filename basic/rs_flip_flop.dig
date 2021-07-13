@@ -30,6 +30,10 @@
           <string>Label</string>
           <string>R</string>
         </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="1" z="false"/>
+        </entry>
       </elementAttributes>
       <pos x="360" y="180"/>
     </visualElement>
